@@ -36,6 +36,7 @@ const ContactContent = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
+    console.log("!!11")
 
     // Require at least one contact method: email or phone
     if (!formData.email && !formData.phone) {
