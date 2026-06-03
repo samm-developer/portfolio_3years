@@ -99,14 +99,14 @@ const ContactContent = () => {
     {
       icon: '📱',
       label: 'Phone',
-      value: '9452392955',
-      link: 'tel:9452392955'
+      value: '7007032590',
+      link: 'tel:7007032590'
     },
     {
       icon: '📍',
       label: 'Location',
-      value: 'India',
-      link: null
+      value: 'Delhi, India',
+      link: 'https://www.google.com/maps/place/Delhi/'
     },
     {
       icon: '💻',
