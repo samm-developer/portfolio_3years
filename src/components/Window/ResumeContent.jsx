@@ -36,6 +36,7 @@ const ResumeContent = ({ onOpenContact, isWindowActive }) => {
 
   const onDocumentLoadSuccess = ({ numPages: np }) => setNumPages(np)
 
+  
   const handleSave = async () => {
     try {
       const response = await fetch(resumePdf)
