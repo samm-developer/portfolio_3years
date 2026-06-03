@@ -12,7 +12,7 @@
   width: 100%;
   height: 100%;
   /* Custom desktop background image */
-  background-image: url('../../assets/sam-background.png');
+  background-image: url('../../assets/shashwat-background.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,8 +33,8 @@
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .desktop-background {
-    /* Mobile-specific background (SAM mobile image) */
-    background-image: url('../../assets/sam-mobile.png');
+    /* Mobile-specific background (Shashwat mobile image) */
+    background-image: url('../../assets/shashwat-mobile.png');
     background-position: center top;
   }
 
