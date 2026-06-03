@@ -84,7 +84,13 @@ const ContactContent = () => {
       }, 4000)
     } catch (err) {
       console.error('Failed to send message', err)
-      setError('Sorry, something went wrong. Please try again later.')
+      if (err?.message === 'Email service is not configured.') {
+        setError(
+          'Contact form is not set up on this site yet. The site owner needs to add EmailJS keys in Netlify and redeploy.'
+        )
+      } else {
+        setError('Sorry, something went wrong. Please try again later.')
+      }
     } finally {
       setIsSending(false)
     }
